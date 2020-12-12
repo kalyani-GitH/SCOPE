@@ -1,0 +1,41 @@
+<h3>Fill this form </h3>
+<form action="backend.php">
+        <!-- submit the data of the form to backend.php file  -->
+        <label for="name">Name:</label>
+        <!-- id and label for should have same value -->
+        <div>
+                <input type="text" name="Myname" id="name">
+        </div>
+        <label for="mail">Email :</label>
+        <div>
+                 <input type="email" name="myemail" id="mail"> 
+        </div>
+        <label for="eligible">Eligibility:</label>
+                <input type="checkbox" name="Myeligibility" id="eligible">
+        <div>
+               Gender :
+        <div>
+                        Male<input type="radio" name="Mygender" id="gender">
+                
+                        Female<input type="radio" name="Mygender" id="gender">
+                
+                        prefer not to say<input type="radio" name="Mygender" id="gender">
+         </div>
+        <label for="num"> My number :</label>
+
+        <div>
+                <input type="number" name="Mynumber" id="num">
+        </div>
+        <label for="dob"> Date of birth:</label>
+
+        <div>
+                <input type="date" name="MyDOB" id="dob">
+        </div> 
+        <label for="write">Write about yourself :</label>
+        <div>
+             <textarea name="Mytext" id="write" cols="20" rows="05"></textarea>
+        </div>
+        
+                <input type="submit" value="Submit now">
+        
+               <input type="reset" value="Reset">
