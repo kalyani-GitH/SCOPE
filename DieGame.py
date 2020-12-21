@@ -1,5 +1,5 @@
 import random
-die=range(6)
+die=[1,2,3,4,5,6]
 pop=random.choice(die)
 num=int(input("Please enter your guess\n"))
 if(pop==num):
